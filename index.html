@@ -7,23 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Ben Shaw">
 
-    <title>There's no place like 127.0.0.1</title>
+    <title>Ben Shaw | Technologist</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,25 +41,22 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">SRSLY?</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Ben Shaw</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">About Me</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="mma_landing">MMA Landing Page</a>
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="robotben">Robot Ben</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -72,12 +69,24 @@
     </nav>
 
     <header>
+    <div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="vids/MP4/Mock-up.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="vids/WEBM/Mock-up.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="vids/Snapshots/Mock-up.jpg" alt="">
+        </div>
+    </div>
+</div>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Welcome To This Staging Site - Now Please Leave</h1>
+                <h1 id="homeHeading">Digital Growth Strategies For Leaders Who Are Creating The Future Of News</h1>
                 <hr>
-                <p>Here Be Dragons</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">GTFO</a>
+                <p></p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
     </header>
@@ -86,20 +95,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Whew.... Still Here, Eh?</h2>
+                    <h2 class="section-heading">Pragmatic Advice Based On Real Insight</h2>
                     <hr class="light">
-                    <p class="text-faded">I'm glad that you are still on my computer.... Honest... Are you sure you dont want to go out to the actual internet....?</p>
-                    <a href="http://google.com" class="btn btn-default btn-xl">Leave</a>
+                    <p class="text-faded">With over 15 years experience in digital media, I've driven the technologies and strategies that are fundamentally transforming the news media business. Having served in roles such as Chief Technology Officer for Shaw Media and Director of Global Advisory for the World Association Of News Publishers (WAN-IFRA), I understand where media is going and can accelerate your team's successes.</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="Features">
+    <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Featuring</h2>
+                    <h2 class="section-heading">At Your Service</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -108,30 +117,30 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary"></i>
-                        <h3>Random Stuff</h3>
-                        <p class="text-muted">Some stuff that will really make you wonder how I spend my time.</p>
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Executive Briefings</h3>
+                        <p class="text-muted">Make Sure Your Team Is Up To Date On The Latest Successes in Mobile, Native, Paid Content & More</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Weird Stuff</h3>
-                        <p class="text-muted">And possibly even question my stabiltiy.</p>
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>Strategic Workshops</h3>
+                        <p class="text-muted">One & Two Day Results Focused Sessions For Your Team</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Misspelled Stuff</h3>
-                        <p class="text-muted">Srsly ul wndr</p>
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3>Second Opinions</h3>
+                        <p class="text-muted">Not 100% On Your Next Digital Project? I Provide Quick & Objective Advice</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Lame Stuff</h3>
-                        <p class="text-muted">And of course if you browse my localhost you'll see some really half assed shit.</p>
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>Technology Selection</h3>
+                        <p class="text-muted">Get My Help Selecting Your Next System</p>
                     </div>
                 </div>
             </div>
@@ -140,88 +149,93 @@
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter">
+            <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#contact" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Tom Foolery
+                                    Drive Digital Revenue
                                 </div>
                                 <div class="project-name">
-                                 
+                                    Strategy & Diversification
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#contact" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Shenannigans
+                                    Win @ Paid Content
                                 </div>
                                 <div class="project-name">
-                                    </div>
+                                     A Path To Reader Revenue
+                                </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#contact" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Hucksterism
+                                    Unlock Real Value
                                 </div>
                                 <div class="project-name">
-                                 </div>
+                                    Using Data & Analytics
+                                </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#contact" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Nincompoopery
+                                    Display Advertising Is Dead
                                 </div>
                                 <div class="project-name">
-                                    </div>
+                                    Long Live Display Advertising
+                                </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#contact" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                  Dirty Deeds Done Cheaply
+                                    Innovation & Design Thinking
                                 </div>
                                 <div class="project-name">
-                                    </div>
+                                    Integrating Startup Culture
+                                </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#contact" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Is it me you're looking for?
+                                    Content Management Systems
                                 </div>
                                 <div class="project-name">
-                                     </div>
+                                    RFP Development
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -233,8 +247,8 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>See if I care</h2>
-                <a href="mailto:pound.sand@gosomewhere.org" class="btn btn-default btn-xl wow tada">Try to get in touch</a>
+                <h2>Download Your Free Digital Revenue Checklist</h2>
+                <a href="#" class="btn btn-default btn-xl sr-button">Coming Soon</a>
             </div>
         </div>
     </aside>
@@ -243,36 +257,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Use my expertise & global network to
-go get bent.</h2>
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Give me a call or send me an email and I will probably not get back in touch.</p>
+                    <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I'll will get back to you as soon as possible!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p><a href="tel:+491722666219">Dont'call +491722666219</a></p>
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>+49 (172) 266 6219</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:pound.sand@gosomewhere.org">Don't Email Me</a></p>
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:shaw.ben1@gmail.com">shaw dot ben1 @ gmail dot com</a></p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
+    <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
+    <!-- Theme JavaScript -->
     <script src="js/creative.js"></script>
+
 
 </body>
 
